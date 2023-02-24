@@ -1,0 +1,28 @@
+<?php
+
+?>
+   <p><h2><strong><?php echo (get_option('newcaseDate'));?></strong></h2></p></br>
+   <p><h2><strong><?php echo ("本地病例 7 天移动平均数：".get_option('newcaseNo'));?></br>
+   <?php/* echo ("(新增人数：".number_format((int)str_replace(",",'',(get_option('localPCR')))+(int)str_replace(",",'',(get_option('localART')))+(int)str_replace(",",'',(get_option('importedPCR')))+(int)str_replace(",",'',(get_option('importedART'))))),")";*/?></strong></h2></p>
+   <p>参考信息：</br>
+   <strong><?php echo ("出院人数：".get_option('localPCR'));?></br>
+   <?php/* echo ("新加坡本地ART新增人数：".get_option('localART'));*/?>
+   <?php echo ("感染率：".get_option('importedPCR'));?></br>
+   <?php echo ("没有或有轻微症状：".get_option('importedART'));?></strong></p>
+
+<p><p style="text-align: center;"><a href="https://bilingualplan.com/wp-content/uploads/2021/12/当天的新加坡新冠新增加人数.jpg"><img class="alignnone size-full wp-image-13279" src="https://bilingualplan.com/wp-content/uploads/2021/12/当天的新加坡新冠新增加人数.jpg" alt="" width="592" height="404"></a></p>
+<p>从2021年12月8号开始，卫生部不再在媒体上公布当天的疫情，包括当天的新增加确诊人数。</p></p>
+
+<p>好像还是有担心的感觉。</p>
+
+<p>因为了解当天的新增加确诊人数，好像是我们每天必须知道的事情。</p>
+
+<p><strong>所以我们做了一个小程序，自动到新加坡卫生部网站获取新冠新增加人数和日期，做成标题新闻在这里，直接看到当日新加坡增感染人数的总数。</strong> </p>
+
+<p>新加坡卫生部网站上每天更新疫情，但是是英文的，也可以点击下面文字，链接到新加坡卫生部网站：
+
+<class="has-text-align-center"><a href="https://www.moh.gov.sg/" target="_blank" rel="noreferrer noopener">新加坡卫生部网站部</a></p>
+
+<p>现在发布的新增病例是过去7天的平均数。 <strong> “7-day Moving Average of Local Cases ” </strong> 这样子 。</p>
+
+<p></p>
